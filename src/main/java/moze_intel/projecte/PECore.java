@@ -59,7 +59,7 @@ import java.util.*;
 public class PECore
 {
 	public static final String MODID = "projecte";
-	public static final String MODNAME = "ProjectE";
+	public static final String MODNAME = "ProjectE Canoe-Edition";
 	public static final String VERSION = "@VERSION@";
 	public static final String DEPS = "required-after:forge@[13.20.0.2253,);after:baubles@[1.3.3,);after:jei@[4.6.0,)";
 	public static final String UPDATE_JSON = "https://raw.githubusercontent.com/sinkillerj/ProjectE/mc1.12.x/update.json";
