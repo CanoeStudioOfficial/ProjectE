@@ -30,6 +30,7 @@ public class GraphMapperTest {
 	@Before
 	public void setup() {
 		//mappingCollector = new SimpleGraphMapper<String, Integer>(new IntArithmetic());
+		SimpleGraphMapper.setLogFoundExploits(false);
 		SimpleGraphMapper<String, BigFraction, IValueArithmetic<BigFraction>> mapper = new SimpleGraphMapper<>(new HiddenBigFractionArithmetic());
 		valueGenerator = new BigFractionToLongGenerator<>(mapper);
 		mappingCollector = new LongToBigFractionCollector<>(mapper);
